@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sanath R portfolio: security, IAM, projects, skills, and selected certifications."
+    />
+    <title>Sanath R | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="apple-touch-icon" href="assets/profile-256.png" />
+    <link rel="preload" as="image" href="assets/profile-256.png" />
+    <link rel="preload" as="image" href="assets/sanathr-220.png" />
+    <link rel="preload" as="image" href="assets/sansyn-360.jpeg" />
+    <script>
+      (() => {
+        const storedTheme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = storedTheme || (prefersDark ? "dark" : "light");
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="#intro" aria-label="Sanath R home">
+          <span>Sanath R</span>
+        </a>
+
+        <p class="header-quote">"Consistency can be invisible until it disappears"</p>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+          <span data-theme-label>Dark</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="portfolio-frame" id="intro" aria-label="Sanath R portfolio overview">
+          <article class="profile-card" aria-label="Intro card">
+            <div>
+              <p class="eyebrow">01 Intro</p>
+              <figure class="name-image">
+                <img src="assets/sanathr-220.png" alt="Sanath R" width="220" height="99" decoding="async" fetchpriority="high" />
+              </figure>
+              <figure class="banner-image">
+                <img src="assets/sansyn-360.jpeg" alt="SanSyn banner" width="360" height="120" decoding="async" fetchpriority="high" />
+              </figure>
+              <p class="role">IAM Security Intern @ <span>Cloudflare</span></p>
+              <p class="profile-copy">I build, break, and simplify systems across security, IAM, CTFs, and product interfaces.</p>
+            </div>
+
+            <div class="profile-bottom">
+              <div class="contact-stack" aria-label="Contact links">
+                <a class="linkedin-link" href="https://www.linkedin.com/in/sanathr/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="mailto:sanathrshs@gmail.com">Gmail</a>
+                <a class="github-link" href="https://github.com/sansynx" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+              <figure class="avatar-image">
+                <img src="assets/profile-256.png" alt="Sanath R character illustration" width="256" height="256" decoding="async" fetchpriority="high" />
+              </figure>
+            </div>
+          </article>
+
+          <div class="panel-grid" aria-label="Expandable portfolio sections">
+            <button class="panel-card" type="button" data-panel="skills">
+              <span class="panel-icon">02</span>
+              <strong>Skills</strong>
+              <small>Tap to expand</small>
+            </button>
+            <button class="panel-card" type="button" data-panel="projects">
+              <span class="panel-icon">03</span>
+              <strong>Projects</strong>
+              <small>Tap to expand</small>
+            </button>
+            <button class="panel-card" type="button" data-panel="achievements">
+              <span class="panel-icon">04</span>
+              <strong>Achievements</strong>
+              <small>Tap to expand</small>
+            </button>
+            <button class="panel-card" type="button" data-panel="certificates">
+              <span class="panel-icon">05</span>
+              <strong>Certifications</strong>
+              <small>Tap to expand</small>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="detail-dialog" data-dialog>
+      <button class="dialog-close" type="button" aria-label="Close dialog" data-close>Close</button>
+      <div class="dialog-content" data-dialog-content></div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

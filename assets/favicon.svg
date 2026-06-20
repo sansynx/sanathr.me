@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    text { font: 700 26px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #f6821f; }
+    @media (prefers-color-scheme: light) { text { fill: #171717; } }
+  </style>
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle">S</text>
+</svg>
