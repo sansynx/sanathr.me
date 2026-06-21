@@ -44,27 +44,22 @@ const projects = [
 const certificates = [
   {
     title: "AWS Cloud Quest",
-    text: "AWS cloud fundamentals.",
     href: "https://www.credly.com/badges/e876a009-1f4b-4c8e-a9b6-bac900a62c6e/linked_in?t=t1ntpw",
   },
   {
     title: "Oracle Cloud Infrastructure 2025",
-    text: "OCI cloud fundamentals.",
     href: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=3763D83E1D50A13CA36B1B5C21519B90B5BA2CC0FA1B03118A1C54AD5042DEA0",
   },
   {
     title: "Introduction to Cybersecurity",
-    text: "Cybersecurity fundamentals.",
     href: "https://www.credly.com/badges/fafbb13f-b646-49ba-ab3e-4ab74aebd20c/linked_in_profile",
   },
   {
     title: "Cyber Threat Management",
-    text: "Threat management concepts.",
     href: "https://www.credly.com/badges/f96622de-b20c-4540-a04a-f5b33f007f3a/public_url",
   },
   {
     title: "Junior Cybersecurity Analyst",
-    text: "Cisco career-path credential focused on security analysis fundamentals.",
     href: "https://www.credly.com/badges/bb796abc-a90b-4aa8-ba7e-c41758f441d7/public_url",
   },
   {
